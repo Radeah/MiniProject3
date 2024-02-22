@@ -17,7 +17,7 @@ public class WeaponController : MonoBehaviour
 
     [Header("Shoot Paramaters")]
     public float fireRange = 200;
-    public float recoilForce = 4f; //Fuerza de retroceso del arma
+    public float recoilForce = 4f;
     public float fireRate = 0.6f;
     public int maxAmmo = 8;
 
@@ -42,6 +42,7 @@ public class WeaponController : MonoBehaviour
 
     private void Update()
     {
+
         if (Input.GetButtonDown("Fire1"))
         {
             TryShoot();
@@ -100,11 +101,11 @@ public class WeaponController : MonoBehaviour
 
     IEnumerator Reload()
     {
-        //TODO emepezar animacion de recarga
+       
         Debug.Log("Recargando...");
         yield return new WaitForSeconds(reloadTime);
         currentAmmo = maxAmmo;
         Debug.Log("Recargada");
-        //TODO terminar la animacion
+        
     }
 }

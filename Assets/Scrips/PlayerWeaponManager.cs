@@ -48,7 +48,7 @@ public class PlayerWeaponManager : MonoBehaviour
     {
         weaponParentSocket.position = defaultWeaponPosition.position;
 
-        //Añadir arma al jugador pero no mostrarla
+       
         for (int i = 0; i<weaponSlots.Length; i++)
         {
             if (weaponSlots[i] == null)
