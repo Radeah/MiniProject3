@@ -38,6 +38,7 @@ public class WeaponController : MonoBehaviour
 
     private void Start()
     {
+
     }
 
     private void Update()
