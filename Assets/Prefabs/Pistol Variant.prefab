@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8950710295401942428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5695233775768712358}
+  m_Layer: 0
+  m_Name: Nozzel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5695233775768712358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8950710295401942428}
+  m_LocalRotation: {x: -0, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0024, y: 0.016, z: 0.237}
+  m_LocalScale: {x: 0.31817102, y: 0.31817102, z: 0.31817102}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 218467623749281244}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &324996224098927159
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 5ae96db27ae2ee04595603d14f31ef38, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ae96db27ae2ee04595603d14f31ef38, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.142964
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ae96db27ae2ee04595603d14f31ef38, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.142964
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ae96db27ae2ee04595603d14f31ef38, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.142964
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ae96db27ae2ee04595603d14f31ef38, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.547903
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ae96db27ae2ee04595603d14f31ef38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.7794
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ae96db27ae2ee04595603d14f31ef38, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.1756
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ae96db27ae2ee04595603d14f31ef38, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ae96db27ae2ee04595603d14f31ef38, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ae96db27ae2ee04595603d14f31ef38, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ae96db27ae2ee04595603d14f31ef38, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ae96db27ae2ee04595603d14f31ef38, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ae96db27ae2ee04595603d14f31ef38, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 5ae96db27ae2ee04595603d14f31ef38, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5ae96db27ae2ee04595603d14f31ef38, type: 3}
+      propertyPath: m_Name
+      value: Pistol Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ae96db27ae2ee04595603d14f31ef38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5695233775768712358}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ae96db27ae2ee04595603d14f31ef38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2764520364088186488}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ae96db27ae2ee04595603d14f31ef38, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1251622252863299620}
+  m_SourcePrefab: {fileID: 100100000, guid: 5ae96db27ae2ee04595603d14f31ef38, type: 3}
+--- !u!4 &218467623749281244 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5ae96db27ae2ee04595603d14f31ef38, type: 3}
+  m_PrefabInstance: {fileID: 324996224098927159}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &595591747532210022 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5ae96db27ae2ee04595603d14f31ef38, type: 3}
+  m_PrefabInstance: {fileID: 324996224098927159}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2764520364088186488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595591747532210022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91f06b652d107c14c90f2e6f84308bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponMuzzle: {fileID: 5695233775768712358}
+  weaponName: Pistol
+  icon: {fileID: 0}
+  hittableLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  bulletHolePrefab: {fileID: 6150974371331226841, guid: f6395ba7000c17342911f4a86da9341e, type: 3}
+  fireRange: 200
+  recoilForce: 4
+  fireRate: 0.6
+  maxAmmo: 8
+  reloadTime: 1.5
+  flashEffect: {fileID: 213868001771980536, guid: 3ebe1e9baf50f494a957cb79903f7983, type: 3}
+--- !u!114 &-1251622252863299620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595591747532210022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ec54f4791eb88498b3056fdcc0ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
